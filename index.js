@@ -1,6 +1,6 @@
 document.getElementById('fetchBtn').addEventListener('click', async () => {
     const contractAddr = document.getElementById('contractAddr').value;
-    const key = '';
+    const key = 'mqq5uFRf8x1xIb-x4lSHtFaDSgr7zFNH';
     const baseURL = `https://eth-mainnet.alchemyapi.io/nft/v2/${key}/getOwnersForCollection`;
     const fetchURL = `${baseURL}?contractAddress=${contractAddr}`;
     
